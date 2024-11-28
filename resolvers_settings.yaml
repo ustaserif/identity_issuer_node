@@ -1,0 +1,40 @@
+privado:
+  main:
+    contractAddress: 0x3C9acB2205Aa72A05F6D77d708b5Cf85FCa3a896
+    networkURL: https://rpc-mainnet.privado.id
+    defaultGasLimit: 600000
+    confirmationTimeout: 10s
+    confirmationBlockCount: 5
+    receiptTimeout: 600s
+    minGasPrice: 0
+    maxGasPrice: 1000000
+    rpcResponseTimeout: 5s
+    waitReceiptCycleTime: 30s
+    waitBlockCycleTime: 30s
+    gasLess: false
+    rhsSettings:
+      mode: None
+      contractAddress: 0x7dF78ED37d0B39Ffb6d4D527Bb1865Bf85B60f81
+      rhsUrl: https://rhs-staging.polygonid.me
+      chainID: 21000
+      publishingKey: pbkey
+polygon:
+  amoy:
+    contractAddress: 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124
+    networkURL: https://polygon-amoy.drpc.org
+    defaultGasLimit: 600000
+    confirmationTimeout: 10s
+    confirmationBlockCount: 5
+    receiptTimeout: 600s
+    minGasPrice: 0
+    maxGasPrice: 1000000
+    rpcResponseTimeout: 5s
+    waitReceiptCycleTime: 30s
+    waitBlockCycleTime: 30s
+    gasLess: false
+    rhsSettings:
+      mode: None
+      contractAddress: 0x7dF78ED37d0B39Ffb6d4D527Bb1865Bf85B60f81
+      rhsUrl: https://rhs-staging.polygonid.me
+      chainID: 80002
+      publishingKey: pbkey
